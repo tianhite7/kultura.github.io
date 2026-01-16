@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kultura Collectiva · Works</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <nav class="nav">
+    <div class="nav-left">
+  <img
+    src="images/Kultura Logo.png"
+    alt="Logo Kultura Collectiva"
+    class="logo-mark"
+  />
+  <div>
+    <div class="brand-title">KULTURA COLLECTIVA</div>
+    <div class="brand-sub">Art collective · Yogyakarta</div>
+  </div>
+</div>
+
+    </div>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="works.html" class="nav-link active">Works</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="programs.html" class="nav-link">Programs</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main class="page">
+  <!-- HERO / INTRO -->
+  <section class="hero-single">
+    <div class="hero-label">Selected works</div>
+    <h1 class="hero-title">Kultura Collectiva’s projects and exhibitions</h1>
+    <p class="hero-text" style="margin-top:12px;">
+      
+    </p>
+  </section>
+
+  <!-- 2025 -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-title-block">
+        <div class="section-label">2025</div>
+        <div class="section-title">Projects from 2025</div>
+        <p class="section-text">
+          For example: a year where collective exhibitions and responses to urban development were central.
+        </p>
+      </div>
+    </div>
+
+    <div class="grid-3">
+      <article class="card">
+        <div class="card-label">Collective exhibition</div>
+        <h2 class="card-title">The Pending City</h2>
+        <div class="card-meta">Alternative space · Yogyakarta</div>
+        <p class="card-text">
+          Installation, photographs, and text responding to stalled construction sites and spaces that almost disappear from the city’s official narrative.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 2022 -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-title-block">
+        <div class="section-label">2022</div>
+        <div class="section-title">Projects from 2022</div>
+        <p class="section-text">
+          A year where sound and field recording experiments became more prominent.
+        </p>
+      </div>
+    </div>
+
+    <div class="grid-3">
+      <article class="card">
+        <div class="card-label">Audio / field recording project</div>
+        <h2 class="card-title">Small Alley Sounds</h2>
+        <div class="card-meta">Various locations · Yogyakarta</div>
+        <p class="card-text">
+          A series of environmental sound recordings in narrow alleys, arranged as an intimate, slow listening experience.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 2021 -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-title-block">
+        <div class="section-label">2021</div>
+        <div class="section-title">Projects from 2021</div>
+        <p class="section-text">
+          For instance: a period focused on graphic design and publications in collaboration with communities or small spaces.
+        </p>
+      </div>
+    </div>
+
+    <div class="grid-3">
+      <article class="card">
+        <div class="card-label">Design & publication</div>
+        <h2 class="card-title">Posters That Tell Stories</h2>
+        <div class="card-meta">Community collaboration</div>
+        <p class="card-text">
+          Posters and zines developed together with local residents, highlighting small stories that rarely appear in mainstream coverage
+          but remain strong in collective memory.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 2020 -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-title-block">
+        <div class="section-label">2020</div>
+        <div class="section-title">Projects from 2020</div>
+        <p class="section-text">
+          A year of performative and installation-based experiments in festivals and public programs.
+        </p>
+      </div>
+    </div>
+
+    <div class="grid-3">
+      <article class="card">
+        <div class="card-label">Installation & performance</div>
+        <h2 class="card-title">Waiting Room</h2>
+        <div class="card-meta">Art festival · Yogyakarta</div>
+        <p class="card-text">
+          A performative installation about the experience of waiting in public service spaces; combining sound, objects,
+          and audience participation.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 2019 -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-title-block">
+        <div class="section-label">2019</div>
+        <div class="section-title">Projects from 2019</div>
+        <p class="section-text">
+          Perhaps an early phase, playing with visual observation and photography in urban spaces.
+        </p>
+      </div>
+    </div>
+
+    <div class="grid-3">
+      <article class="card">
+        <div class="card-label">Photography exhibition</div>
+        <h2 class="card-title">Between Walls</h2>
+        <div class="card-meta">Independent gallery · Yogyakarta</div>
+        <p class="card-text">
+          Photographs of city walls functioning as informal bulletin boards: advertisements, personal messages,
+          and other small signs.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    <span>© <span id="yearNow"></span> Kultura Collectiva.</span>
+    <span>Works page · organised by year, extendable over time.</span>
+  </footer>
+</main>
+
+<script>
+  document.getElementById("yearNow").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
