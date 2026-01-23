@@ -655,12 +655,13 @@ footer a {
   line-height: 1.6;
 }
 .home-work {
-  padding: 40px;
-  height: auto;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .home-work img {
   width: 100%;
-  max-height: 80vh;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
 }
