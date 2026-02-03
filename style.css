@@ -637,23 +637,49 @@ footer a {
 }
 /* OVERRIDE UNTUK HALAMAN WORKS: CARD LEBIH BESAR */
 .works-page .grid-3 {
-  grid-template-columns: repeat(2, minmax(0, 1fr)); /* dari 3 → 2 kolom di desktop */
-  gap: 20px;                                        /* jarak antar card sedikit lebih besar */
+  grid-template-columns: 1fr;
+  gap: 60px;
 }
+
 
 .works-page .card {
-  padding: 16px 16px 18px;      /* lebih tebal dari 10px */
-  min-height: 180px;            /* biar nggak terlalu pendek */
+  min-height: 90vh;
+  padding: 60px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-radius: 20px;
 }
 
+
 .works-page .card-title {
-  font-size: 14px;              /* sedikit lebih besar */
+  font-size: 22px;
+  margin-bottom: 16px;
 }
 
 .works-page .card-text {
-  font-size: 13px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 75%; /* biar teks nggak kepanjangan ke samping */
 }
+@media (max-width: 640px) {
+
+  .works-page .card {
+    padding: 32px 22px;
+    min-height: 90vh;
+  }
+
+  .works-page .card-title {
+    font-size: 18px;
+  }
+
+  .works-page .card-text {
+    font-size: 15px;
+  }
+
+}
+
 .home-work {
   width: 100%;
   height: 100vh;
