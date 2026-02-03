@@ -262,7 +262,7 @@ header {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("images/background.jpg"); /* ganti sesuai nama file */
+  background-image: url(""); /* ganti sesuai nama file */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -452,22 +452,31 @@ header {
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.13em;
+  margin-bottom: 24px;
+
+  
 }
 
 .social-chips {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 8px;
-  font-size: 12px;
+  gap: 12px;
 }
 
 .chip {
-  border-radius: 999px;
-  border: 1px solid var(--line);
-  padding: 5px 10px;
-  background: #f5f4ef;
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #111;
+  transition: background 0.2s ease;
 }
+
+.chip:hover {
+  background: #eee;
+}
+
 
 /* FOOTER */
 footer {
